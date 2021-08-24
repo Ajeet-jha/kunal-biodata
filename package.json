@@ -1,10 +1,11 @@
 {
-  "name": "personal-site",
-  "version": "3.0.1",
+  "name": "kunal-biodata",
+  "version": "1.0.0",
   "homepage": "http://localhost:3000/",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
