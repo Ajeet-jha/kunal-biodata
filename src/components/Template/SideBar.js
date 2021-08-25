@@ -9,11 +9,12 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        {/* <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" /> */}
+        <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-1/c0.0.720.720a/p720x720/154027110_3442813432490053_4351887273308479653_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=7206a8&_nc_ohc=aHxYFcDcqXYAX-aAa4-&_nc_ht=scontent.fdel3-2.fna&oh=685b43a2c121791504c539d5d9aa80da&oe=614D927F" alt="" />
       </Link>
       <header>
         <h2>Kunal Kumar</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">kunalkumar@gmail.com</a></p>
+        <p><a href="mailto:kunalkumar@gmail.com">kunalkumar@gmail.com</a></p>
       </header>
     </section>
 
@@ -32,7 +33,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Er. Kunal kumar.</p>
     </section>
   </section>
 );

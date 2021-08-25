@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import data from '../data/family';
 
-const Projects = () => (
+const Family = () => (
   <Main>
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
-          <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <h2 data-testid="heading"><Link to="/family">Family</Link></h2>
+          <p>Being a family means you are a part of something very wonderful. It means you will love and be loved for the rest of your life.</p>
         </div>
       </header>
       {data.map((project) => (
@@ -25,4 +25,4 @@ const Projects = () => (
   </Main>
 );
 
-export default Projects;
+export default Family;

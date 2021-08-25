@@ -1,6 +1,4 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-
 import Course from './Courses/Course';
 
 const getRows = (courses) => courses.sort((a, b) => {

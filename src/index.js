@@ -10,7 +10,9 @@ const StrictApp = () => (
   </React.StrictMode>
 );
 
-// hydrate is required by react-snap.
 
-rootElement.hasChildNodes() ?  hydrate(<StrictApp />, rootElement) :render(<StrictApp />, rootElement)
+// hydrate is required by react-snap.
+rootElement.hasChildNodes() 
+? hydrate(<StrictApp />, rootElement) 
+: render(<StrictApp />, rootElement)
 

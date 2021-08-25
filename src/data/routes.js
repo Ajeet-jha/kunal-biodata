@@ -4,17 +4,13 @@ const routes = [
     label: "Kunal Kumar",
     path: '/',
   },
-  // {
-  //   label: 'About',
-  //   path: '/about',
-  // },
   {
     label: 'Biodata',
     path: '/biodata',
   },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: 'Family',
+    path: '/family',
   },
   {
     label: 'Stats',

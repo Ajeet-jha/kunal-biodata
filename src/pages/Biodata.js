@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
